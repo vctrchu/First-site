@@ -23,12 +23,14 @@ html {
 body {
     width: 60%;
     margin: auto;
-    background-image: url(images/BG.png);
+    //background-image: url(images/BG.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.blue{
+    color: #027BFF;
+}
 h1 {
     font-size: 40px;
     font-weight: 400;
@@ -56,6 +58,7 @@ p {
 }
 
 /*-------- Nav --------*/
+
 .nav {
     display: flex;
     align-items: center;
@@ -65,54 +68,177 @@ p {
 .contactMe, .navIcons {
     flex: 1;
 }
+
 .navIcons {
     text-align: right;
 }
+
 .navIcons a, .contactMe a, .contactMe img {
     display: inline-block;
     vertical-align: middle;
 }
+
 .navIcons a {
     margin-left: 40px;
 }
+
 .contactMe a {
     color: #027BFF;
     text-decoration: none;
 }
+
 .contactMe img {
     margin-right: 10px;
 }
 
-
-
 /*-------- Landing --------*/
 
+.landing {
+    height: 100vh;
+    position: relative;
+}
 
+.landingWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
 
+ul {
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
 
-/*-------- Skills --------*/
+.landingL {
+    margin-top: 4em;
+}
 
-
+.scroll {
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 
 /*-------- Work 01 --------*/
+.work {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em
+}
 
+.work > .workText {
+    position: absolute;
+    top: 85px;
+}
 
+.work > .workText > .underline {
+    display: block;
+    background-color: #027BFF;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
+
+.work > .workImg {
+    width: 95%;
+    float: right;
+}
+
+.work ul {
+    position: absolute;
+    bottom: 13%;
+    right: 90%;
+}
+
+.work ul li {
+    margin-top: 20px;
+}
 
 
 /*-------- Work 02 --------*/
 
+.work2 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em
+}
 
+.work2 > .workText {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    text-align: right;
+}
 
+.work2 > .workText > .underline {
+    display: block;
+    background-color: #027BFF;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+    float: right;
+}
+
+.work2 > .workImg {
+    width: 95%;
+    float: left;
+}
+
+.work2 ul {
+    position: absolute;
+    bottom: 13%;
+    left: 90%;
+}
+
+.work2 ul li {
+    margin-top: 20px;
+}
 
 /*-------- Work 01 and 02 --------*/
 
-
+.work a, .work2 a {
+    text-decoration: none;
+    color: #17191A;
+}
 
 
 /*-------- Footer --------*/
 
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
 
+.contactMe, .navIcons {
+    flex: 1;
+}
+
+.navIcons {
+    text-align: right;
+}
+
+.navIcons a, .contactMe a, .contactMe img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navIcons a {
+    margin-left: 40px;
+}
+
+.contactMe a {
+    color: #027BFF;
+    text-decoration: none;
+}
+
+.contactMe img {
+    margin-right: 10px;
+}
 
 
 

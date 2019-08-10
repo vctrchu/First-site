@@ -241,6 +241,12 @@ ul {
 }
 
 @media only screen and (max-width: 500px){
+    body {
+        width: 90%;
+    }
+    .scroll {
+        display: none;
+    }
 
     .landingR{
         display: block;
@@ -260,6 +266,11 @@ ul {
     }
     .navIcons a {
         margin-left: 20px;
+    }
+    
+    .work {
+      
+    
     }
 }
 

@@ -240,9 +240,9 @@ ul {
     margin-right: 10px;
 }
 
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 500px){
     body {
-        width: 100%
+        width: 95%
     }
     .landingR{
         display: block;
@@ -259,8 +259,9 @@ ul {
         text-align: center;
     }
     p {
+        margin-left: -100%;
+        margin-right: -100%;
         text-align: center;
-        display: in
     }
     .navIcons a {
         margin-left: 20px;
